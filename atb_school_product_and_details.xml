@@ -1,15 +1,14 @@
-<!--
-
-  IMPORTANT
-  =========
-
-  The master for this XML file is in the AtB-AS repository here:
-  https://github.com/AtB-AS/netex-data/blob/main/atb_school_product_and_details.xml
-
--->
 <?xml version="1.0" encoding="UTF-8"?>
 <PublicationDelivery xmlns="http://www.netex.org.uk/netex" version="1.11:NO-NeTEx-fares:0.9">
+  <!--
 
+    IMPORTANT
+    =========
+
+    The master for this XML file is in the AtB-AS repository here:
+    https://github.com/AtB-AS/netex-data/blob/main/atb_school_product_and_details.xml
+
+  -->
   <PublicationTimestamp>2020-09-01T12:00:00</PublicationTimestamp>
   <ParticipantRef>ABT-REFERENCEDATA</ParticipantRef>
   <dataObjects>
@@ -214,11 +213,11 @@
           <ProofRequired>studentCard</ProofRequired>
         </UserProfile>
         <!-- Commented out due to dependent library needs update
-​
+          ​
           <SecurityPolicy id="ATB:SecurityPolicy:SchoolRide" version="1">
           <MinimumAccountSecurityLevel>-80</MinimumAccountSecurityLevel>
           </SecurityPolicy>
-​
+          ​
         -->
       </usageParameters>
 
@@ -254,7 +253,7 @@
       </salesOfferPackages>
     </FareFrame>
 
- 
+
 
     <!-- TRFK - Ramme for VGS -->
     <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayTRFK2022-2023">
