@@ -12,7 +12,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDayTRFK2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDayTRFK2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDayTRFK2022-2023"/>
@@ -32,7 +32,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDayRoros2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDayRoros2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDayRoros2022-2023"/>
@@ -52,7 +52,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDayTrondheim2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDayTrondheim2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDayTrondheim2022-2023"/>
@@ -72,7 +72,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDayMelhus2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDayMelhus2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDayMelhus2022-2023"/>
@@ -92,7 +92,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDaySelbu2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDaySelbu2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDaySelbu2022-2023"/>
@@ -112,7 +112,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDayRennebu2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDayRennebu2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDayRennebu2022-2023"/>
@@ -132,7 +132,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDayTydal2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDayTydal2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDayTydal2022-2023"/>
@@ -152,7 +152,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDayOsen2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDayOsen2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDayOsen2022-2023"/>
@@ -172,7 +172,7 @@
         <FareDemandFactor id="ATB:FareDemandFactor:SchoolDayAfjord2022-2023" version="1">
           <validityConditions>
             <!-- using general availability condition -->
-            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDay" version="1">
+            <AvailabilityCondition id="ATB:AvailabilityCondition:SchoolDayAfjord2022-2023" version="1">
               <dayTypes>
                 <!-- applies to the school day type -->
                 <DayTypeRef ref="ATB:FareDayType:SchoolDayAfjord2022-2023"/>
