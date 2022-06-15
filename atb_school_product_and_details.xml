@@ -191,7 +191,7 @@
 
       <validableElements>
         <ValidableElement id="ATB:ValidableElement:PRE-SchoolRide" version="1">
-          <Name lang="nob">Skolerettighet buss/tog/trikk</Name>
+          <Name lang="nob">Skolerettighet buss/trikk</Name>
         </ValidableElement>
       </validableElements>
 
