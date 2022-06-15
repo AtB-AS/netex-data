@@ -1,3 +1,12 @@
+<!--
+
+  IMPORTANT
+  =========
+
+  The master for this XML file is in the AtB-AS repository here:
+  https://github.com/AtB-AS/netex-data/blob/main/atb_school_product_and_details.xml
+
+-->
 <?xml version="1.0" encoding="UTF-8"?>
 <PublicationDelivery xmlns="http://www.netex.org.uk/netex" version="1.11:NO-NeTEx-fares:0.9">
 
