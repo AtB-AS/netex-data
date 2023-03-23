@@ -983,7 +983,7 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTrondheim2023-2024">
-            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till start of july next year - for simplicity -->
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
             <ToDate>2024-06-30T23:59:59</ToDate>
             <ValidDayBits>
@@ -1009,7 +1009,7 @@
               1111100 <!-- Week 50 -->
               1111000 <!-- Week 51 - Christmas vacation -->
               0000000 <!-- Week 52 - Christmas vacation -->
-              0111100 <!-- Week 1 -->
+              0111100 <!-- Week 1 - Christmas vacation -->
               1111100 <!-- Week 2 -->
               1111100 <!-- Week 3 -->
               1111000 <!-- Week 4 - Day off -->
@@ -1021,16 +1021,16 @@
               1111100 <!-- Week 10 -->
               1111100 <!-- Week 11 -->
               1111100 <!-- Week 12 -->
-              0000000 <!-- Week 13 -->
+              0000000 <!-- Week 13 - Easter -->
               0111100 <!-- Week 14 - Easter -->
-              1111100 <!-- Week 15 - Easter -->
+              1111100 <!-- Week 15 -->
               1111100 <!-- Week 16 -->
               1111100 <!-- Week 17 -->
               1101100 <!-- Week 18 - May 1st -->
               1110000 <!-- Week 19 - Ascension -->
               1111000 <!-- Week 20 - May 17th -->
-              0111100 <!-- Week 21 -->
-              1111100 <!-- Week 22 - Pentecost -->
+              0111100 <!-- Week 21 - Pentecost -->
+              1111100 <!-- Week 22 -->
               1111100 <!-- Week 23 -->
               1111100 <!-- Week 24 -->
               1111000 <!-- Week 25 - Summer vacation starting -->
@@ -1062,7 +1062,7 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTRFK2023-2024">
-            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till start of july next year - for simplicity -->
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
             <ToDate>2024-06-30T23:59:59</ToDate>
             <ValidDayBits>
@@ -1102,7 +1102,7 @@
               1111100 <!-- Week 12 -->
               0000000 <!-- Week 13 - Easter -->
               0111100 <!-- Week 14 - Easter -->
-              1111100 <!-- Week 15 - Easter -->
+              1111100 <!-- Week 15 -->
               1111100 <!-- Week 16 -->
               1111100 <!-- Week 17 -->
               1101100 <!-- Week 18 - May 1st -->
@@ -1141,7 +1141,7 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayAfjord2023-2024">
-            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till start of july next year - for simplicity -->
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
             <ToDate>2024-06-30T23:59:59</ToDate>
             <ValidDayBits>
@@ -1188,7 +1188,7 @@
               1110000 <!-- Week 19 - Ascension -->
               1111000 <!-- Week 20 - May 17th -->
               0111100 <!-- Week 21 - Pentecost -->
-              1111100 <!-- Week 22 - Pentecost -->
+              1111100 <!-- Week 22 -->
               1111100 <!-- Week 23 -->
               1111100 <!-- Week 24 -->
               1111000 <!-- Week 25 - Summer vacation starting -->
@@ -1220,7 +1220,7 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayRoros2023-2024">
-            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till start of july next year - for simplicity -->
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
             <ToDate>2024-06-30T23:59:59</ToDate>
             <ValidDayBits>
@@ -1299,7 +1299,7 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayRennebu2023-2024">
-            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till start of july next year - for simplicity -->
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
             <ToDate>2024-06-30T23:59:59</ToDate>
             <ValidDayBits>
