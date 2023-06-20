@@ -1685,7 +1685,7 @@
 
     <!-- Nordland kommune: Lurøy, Sømna 2023-2024 -->
     <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayLuroySomna2023-2024">
-      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <Name lang="eng">School year calendar for Lurøy and Sømna kommunes</Name>
       <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayLuroySomna2023-2024" version="1">
         <dayTypes>
           <FareDayType version="1" id="NFK:FareDayType:SchoolDayLuroySomna2023-2024">
@@ -1764,7 +1764,7 @@
 
     <!-- Nordland kommune: Dønna, Brønnøy 2023-2024 -->
     <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayDonnaBronnoy2023-2024">
-      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <Name lang="eng">School year calendar for Dønna and Brønnøy kommunes</Name>
       <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayDonnaBronnoy2023-2024" version="1">
         <dayTypes>
           <FareDayType version="1" id="NFK:FareDayType:SchoolDayDonnaBronnoy2023-2024">
@@ -1843,7 +1843,7 @@
 
     <!-- Nordland kommune: Leirfjord, Nesna, Alstahaug 2023-2024 -->
     <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayLeirfjordNesnaAlstahaug2023-2024">
-      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <Name lang="eng">School year calendar for Leirfjord, Nesna and Alstahaug kommunes</Name>
       <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayLeirfjordNesnaAlstahaug2023-2024" version="1">
         <dayTypes>
           <FareDayType version="1" id="NFK:FareDayType:SchoolDayLeirfjordNesnaAlstahaug2023-2024">
@@ -1922,7 +1922,7 @@
 
     <!-- Nordland kommune: Lofoten (Flakstad, Moskenes, Vestvågøy, Vågan) 2023-2024 -->
     <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayLofoten2023-2024">
-      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <Name lang="eng">School year calendar for Lofoten (Flakstad, Moskenes, Vestvågøy, Vågan) kommune</Name>
       <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayLofoten2023-2024" version="1">
         <dayTypes>
           <FareDayType version="1" id="NFK:FareDayType:SchoolDayLofoten2023-2024">
@@ -2001,7 +2001,7 @@
 
     <!-- Nordland kommune: Vesterålen (Andøy, Bø, Hadsel, Lødingen, Sortland, Øksnes) 2023-2024 -->
     <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayVesteralen2023-2024">
-      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <Name lang="eng">School year calendar for Vesterålen (Andøy, Bø, Hadsel, Lødingen, Sortland, Øksnes) kommune</Name>
       <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayVesteralen2023-2024" version="1">
         <dayTypes>
           <FareDayType version="1" id="NFK:FareDayType:SchoolDayVesteralen2023-2024">
@@ -2080,7 +2080,7 @@
 
     <!-- Nordland kommune: Evenes 2023-2024 -->
     <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayEvenes2023-2024">
-      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <Name lang="eng">School year calendar for Evenes kommune</Name>
       <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayEvenes2023-2024" version="1">
         <dayTypes>
           <FareDayType version="1" id="NFK:FareDayType:SchoolDayEvenes2023-2024">
@@ -2159,7 +2159,7 @@
 
     <!-- Nordland kommune: Narvik 2023-2024 -->
     <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayNarvik2023-2024">
-      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <Name lang="eng">School year calendar for Narvik kommune</Name>
       <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayNarvik2023-2024" version="1">
         <dayTypes>
           <FareDayType version="1" id="NFK:FareDayType:SchoolDayNarvik2023-2024">
@@ -2238,7 +2238,7 @@
 
     <!-- Nordland kommune: Bindal 2023-2024 -->
     <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayBindal2023-2024">
-      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <Name lang="eng">School year calendar for Bindal kommune</Name>
       <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayBindal2023-2024" version="1">
         <dayTypes>
           <FareDayType version="1" id="NFK:FareDayType:SchoolDayBindal2023-2024">
