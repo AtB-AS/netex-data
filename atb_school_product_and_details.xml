@@ -1602,5 +1602,718 @@
       </ServiceCalendar>
     </ServiceCalendarFrame>
 
+    <!-- NFK -->
+
+    <!-- Nordland kommune 2023-2024 (default) -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayNFK2023-2024">
+      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayNFK2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayNFK2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayNFK2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              1100000 <!-- Week 41 - Autumn (Høstferie) vacation: 11-13 Oct -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111000 <!-- Week 46 - Elevfri: 17th Nov -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1110000 <!-- Week 51 - Siste dag før jul 20.desember -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0011100 <!-- Week 1 - Christmas vacation - Skolestart 3.jan. -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0011100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayNFK2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayNFK2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayNFK2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Nordland kommune: Lurøy, Sømna 2023-2024 -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayLuroySomna2023-2024">
+      <Name lang="eng">School year calendar for Lurøy and Sømna kommunes</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayLuroySomna2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayLuroySomna2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayLuroySomna2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn (Høstferie) vacation: 9-13 Oct -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1110000 <!-- Week 51 - Siste dag før jul 20.desember -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0011100 <!-- Week 1 - Christmas vacation - Skolestart 3.jan. -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0011100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayLuroySomna2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayLuroySomna2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayLuroySomna2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Nordland kommune: Dønna, Brønnøy 2023-2024 -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayDonnaBronnoy2023-2024">
+      <Name lang="eng">School year calendar for Dønna and Brønnøy kommunes</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayDonnaBronnoy2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayDonnaBronnoy2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayDonnaBronnoy2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn (Høstferie) vacation: 9-13 Oct -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111000 <!-- Week 46 - Elevfri: 17th Nov -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111000 <!-- Week 51 - Siste dag før jul 21 Dec -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0111100 <!-- Week 1 - Christmas vacation - Skolestart 2 Jan. -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0011100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayDonnaBronnoy2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayDonnaBronnoy2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayDonnaBronnoy2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Nordland kommune: Leirfjord, Nesna, Alstahaug 2023-2024 -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayLeirfjordNesnaAlstahaug2023-2024">
+      <Name lang="eng">School year calendar for Leirfjord, Nesna and Alstahaug kommunes</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayLeirfjordNesnaAlstahaug2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayLeirfjordNesnaAlstahaug2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayLeirfjordNesnaAlstahaug2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn (Høstferie) vacation: 9-13 Oct -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1110000 <!-- Week 51 - Siste dag før jul 20 Dec -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0111100 <!-- Week 1 - Christmas vacation - Skolestart 2 Jan -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0011100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayLeirfjordNesnaAlstahaug2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayLeirfjordNesnaAlstahaug2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayLeirfjordNesnaAlstahaug2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Nordland kommune: Lofoten (Flakstad, Moskenes, Vestvågøy, Vågan) 2023-2024 -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayLofoten2023-2024">
+      <Name lang="eng">School year calendar for Lofoten (Flakstad, Moskenes, Vestvågøy, Vågan) kommune</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayLofoten2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayLofoten2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayLofoten2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0001100 <!-- Week 33 - Summer vacation, skolestart 17th Aug -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn (Høstferie) vacation: 9-13 Oct -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111000 <!-- Week 46 - Elevfri: 17th Nov -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111000 <!-- Week 51 - Siste dag før jul 21 Dec -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0001100 <!-- Week 1 - Christmas vacation - Skolestart 4 Jan -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0011100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayLofoten2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayLofoten2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayLofoten2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Nordland kommune: Vesterålen (Andøy, Bø, Hadsel, Lødingen, Sortland, Øksnes) 2023-2024 -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayVesteralen2023-2024">
+      <Name lang="eng">School year calendar for Vesterålen (Andøy, Bø, Hadsel, Lødingen, Sortland, Øksnes) kommune</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayVesteralen2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayVesteralen2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayVesteralen2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              1100000 <!-- Week 41 - Autumn (Høstferie) vacation: 11-13 Oct -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111000 <!-- Week 46 - Elevfri: 17th Nov -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1110000 <!-- Week 51 - Siste dag før jul 20 Dec -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0011100 <!-- Week 1 - Christmas vacation - Skolestart 3 Jan -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0011100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayVesteralen2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayVesteralen2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayVesteralen2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Nordland kommune: Evenes 2023-2024 -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayEvenes2023-2024">
+      <Name lang="eng">School year calendar for Evenes kommune</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayEvenes2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayEvenes2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayEvenes2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1100000 <!-- Week 40 - Autumn (Høstferie) vacation: 4-6 Oct -->
+              1111100 <!-- Week 41 -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              0011100 <!-- Week 46 - Elevfri: 13-14 Nov -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1110000 <!-- Week 51 - Siste dag før jul 20 Dec -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0011100 <!-- Week 1 - Christmas vacation - Skolestart 3 Jan -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0111100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayEvenes2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayEvenes2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayEvenes2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Nordland kommune: Narvik 2023-2024 -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayNarvik2023-2024">
+      <Name lang="eng">School year calendar for Narvik kommune</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayNarvik2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayNarvik2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayNarvik2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn (Høstferie) vacation: 9-13 Oct -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111000 <!-- Week 46 - Elevfri: 17 Nov -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1110000 <!-- Week 51 - Siste dag før jul 20 Dec -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0111100 <!-- Week 1 - Christmas vacation - Skolestart 2 Jan -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0111100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayNarvik2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayNarvik2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayNarvik2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Nordland kommune: Bindal 2023-2024 -->
+    <ServiceCalendarFrame version="1" id="NFK:ServiceCalendarFrame:SchoolDayBindal2023-2024">
+      <Name lang="eng">School year calendar for Bindal kommune</Name>
+      <ServiceCalendar id="NFK:ServiceCalendar:SchoolDayBindal2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NFK:FareDayType:SchoolDayBindal2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NFK:UicOperatingPeriod:SchoolDayBindal2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn (Høstferie) vacation: 9-13 Oct -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111000 <!-- Week 51 - Siste dag før jul 21 Dec -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0011100 <!-- Week 1 - Christmas vacation - Skolestart 3 Jan -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              0000000 <!-- Week 9 - Winter vacation: 26 Feb - 1 Mar -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0011100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - Off. høgtidsdag: 1 May -->
+              1110000 <!-- Week 19 - Ascension: 9 May, Elevfri: 10 May -->
+              1111000 <!-- Week 20 - Independence day: 17 May -->
+              0111100 <!-- Week 21 - 2. pinsedag: 20 May -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NFK:DayTypeAssignment:SchoolDayBindal2023-2024" order="1">
+            <OperatingPeriodRef ref="NFK:UicOperatingPeriod:SchoolDayBindal2023-2024"/>
+            <DayTypeRef version="1" ref="NFK:FareDayType:SchoolDayBindal2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
   </dataObjects>
 </PublicationDelivery>
