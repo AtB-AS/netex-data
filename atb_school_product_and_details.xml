@@ -1602,5 +1602,84 @@
       </ServiceCalendar>
     </ServiceCalendarFrame>
 
+    <!-- Selbu kommune 2023-2024-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDaySelbu2023-2024">
+      <Name lang="eng">School year calendar for Selbu kommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDaySelbu2023-2024" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDaySelbu2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDaySelbu2023-2024">
+            <FromDate>2023-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2024-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn vacation -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1101100 <!-- Week 48 - Day off -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0111100 <!-- Week 1 - Christmas vacation -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              0000000 <!-- Week 8 - Winter vacation -->
+              1111100 <!-- Week 9 -->
+              1111000 <!-- Week 10 - Day off -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              0000000 <!-- Week 13 - Easter -->
+              0111100 <!-- Week 14 - Easter -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1101100 <!-- Week 18 - May 1st -->
+              1110000 <!-- Week 19 - Ascension -->
+              1111000 <!-- Week 20 - May 17th -->
+              0111100 <!-- Week 21 - Pentecost -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111100 <!-- Week 24 -->
+              1111000 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation starting -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDaySelbu2023-2024" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDaySelbu2023-2024"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDaySelbu2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
   </dataObjects>
 </PublicationDelivery>
