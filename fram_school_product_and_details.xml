@@ -13,12 +13,12 @@
   <ParticipantRef>ABT-REFERENCEDATA</ParticipantRef>
   <dataObjects>
 
-    <!-- FRAM 2023-2024 (default) -->
-    <ServiceCalendarFrame version="1" id="MOR:ServiceCalendarFrame:SchoolDayFRAM2023-2024">
-      <Name lang="eng">School year calendar for FRAM</Name>
-      <ServiceCalendar id="MOR:ServiceCalendar:SchoolDayFRAM2023-2024" version="1">
+    <!-- MRFK 2023-2024 (default) -->
+    <ServiceCalendarFrame version="1" id="MOR:ServiceCalendarFrame:SchoolDayMRFK2023-2024">
+      <Name lang="eng">School year calendar for MRFK</Name>
+      <ServiceCalendar id="MOR:ServiceCalendar:SchoolDayMRFK2023-2024" version="1">
         <dayTypes>
-          <FareDayType version="1" id="MOR:FareDayType:SchoolDayFRAM2023-2024">
+          <FareDayType version="1" id="MOR:FareDayType:SchoolDayMRFK2023-2024">
             <properties>
               <PropertyOfDay>
                 <HolidayTypes>SchoolDay</HolidayTypes>
@@ -27,7 +27,7 @@
           </FareDayType>
         </dayTypes>
         <operatingPeriods>
-          <UicOperatingPeriod version="1" id="MOR:UicOperatingPeriod:SchoolDayFRAM2023-2024">
+          <UicOperatingPeriod version="1" id="MOR:UicOperatingPeriod:SchoolDayMRFK2023-2024">
             <FromDate>2023-08-21T00:00:00</FromDate> <!-- 21st Aug 2023 till 21st June 2024 -->
             <!-- Only necessary to validate that enough validity bits are present -->
             <ToDate>2024-06-21T00:00:00</ToDate>
@@ -80,15 +80,15 @@
           </UicOperatingPeriod>
         </operatingPeriods>
         <dayTypeAssignments>
-          <DayTypeAssignment version="1" id="MOR:DayTypeAssignment:SchoolDayFRAM2023-2024" order="1">
-            <OperatingPeriodRef ref="MOR:UicOperatingPeriod:SchoolDayFRAM2023-2024"/>
-            <DayTypeRef version="1" ref="MOR:FareDayType:SchoolDayFRAM2023-2024"/>
+          <DayTypeAssignment version="1" id="MOR:DayTypeAssignment:SchoolDayMRFK2023-2024" order="1">
+            <OperatingPeriodRef ref="MOR:UicOperatingPeriod:SchoolDayMRFK2023-2024"/>
+            <DayTypeRef version="1" ref="MOR:FareDayType:SchoolDayMRFK2023-2024"/>
           </DayTypeAssignment>
         </dayTypeAssignments>
       </ServiceCalendar>
     </ServiceCalendarFrame>
 
-    <!-- FRAM kommune: Emblem skule 2023-2024 -->
+    <!-- FRAM Emblem skule 2023-2024 -->
     <ServiceCalendarFrame version="1" id="MOR:ServiceCalendarFrame:SchoolDayEmblemSkule2023-2024">
       <Name lang="eng">School year calendar for Emblem skule</Name>
       <ServiceCalendar id="MOR:ServiceCalendar:SchoolDayEmblemSkule2023-2024" version="1">
