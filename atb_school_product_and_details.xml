@@ -1681,5 +1681,719 @@
       </ServiceCalendar>
     </ServiceCalendarFrame>
 
+    <!-- 2024-2025 Calenders -->
+
+    <!-- Trondheim kommune 2023-2024-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayTrondheim2024-2025">
+      <Name lang="eng">School year calendar for Trondheim Kommune 2024-2025</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDayTrondheim2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDayTrondheim2024-2025">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTrondheim2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0001100 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn vacation -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->                                               
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0000000 <!-- Week 1 - Christmas vacation -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111000 <!-- Week 5 - Day off -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              1111100 <!-- Week 9 -->
+              0000000 <!-- Week 10 - Winter vacation -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              1111100 <!-- Week 13 -->
+              1111100 <!-- Week 14 -->
+              1111100 <!-- Week 15 -->
+              0000000 <!-- Week 16 - Easter -->
+              0111100 <!-- Week 17 - Easter -->
+              1110000 <!-- Week 18 - May 1st -->
+              1111100 <!-- Week 19 -->
+              1111100 <!-- Week 20 -->
+              1111100 <!-- Week 21 -->
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayTrondheim2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayTrondheim2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayTrondheim2024-2025"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- TRFK - Ramme for VGS 2024-2025-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayTRFK2024-2025">
+      <Name lang="eng">School year calendar for Trøndelag Fylkeskommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDayTRFK2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDayTRFK2024-2025">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTRFK2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0001100 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn vacation -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1101100 <!-- Week 48 - Day off -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0000000 <!-- Week 1 - Christmas vacation -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              1111100 <!-- Week 9 -->
+              0000000 <!-- Week 10 - Winter vacation -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              1111100 <!-- Week 13 -->
+              1111100 <!-- Week 14 -->
+              1111100 <!-- Week 15 -->
+              0000000 <!-- Week 16 - Easter -->
+              0111100 <!-- Week 17 - Easter -->
+              1110000 <!-- Week 18 - May 1st -->
+              1111100 <!-- Week 19 -->
+              1111100 <!-- Week 20 -->
+              1111100 <!-- Week 21 -->
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayTRFK2023-2024" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayTRFK2023-2024"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayTRFK2023-2024"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Åfjord kommune 2024-2025-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayAfjord2024-2025">
+      <Name lang="eng">School year calendar for Åfjord kommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDayAfjord2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDayAfjord2024-2025">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayAfjord2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0001100 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn vacation -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1101100 <!-- Week 48 - Day off -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0000000 <!-- Week 1 - Christmas vacation -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              1111100 <!-- Week 9 -->
+              0000000 <!-- Week 10 - Winter vacation -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              1111100 <!-- Week 13 -->
+              1111100 <!-- Week 14 -->                       
+              1111100 <!-- Week 15 -->
+              0000000 <!-- Week 16 - Easter -->
+              0111100 <!-- Week 17 - Easter -->
+              1110100 <!-- Week 18 - May 1st -->
+              1111100 <!-- Week 19 -->
+              1111100 <!-- Week 20 -->
+              1111100 <!-- Week 21 -->
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111000 <!-- Week 25 - Starting summer vacation -->
+              0000000 <!-- Week 26 - Summer vacation -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayAfjord2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayAfjord2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayAfjord2024-2025"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Røros kommune 2024-2025-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayRoros2024-2025">
+      <Name lang="eng">School year calendar for Røros Kommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDayRoros2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDayRoros2024-2025">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayRoros2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0001100 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn vacation -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1101100 <!-- Week 48 - Day off -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0000100 <!-- Week 1 - Christmas vacation -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111000 <!-- Week 8 - Day off -->
+              1111100 <!-- Week 9 -->
+              0000000 <!-- Week 10 - Winter vacation -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              1111100 <!-- Week 13 -->
+              1111100 <!-- Week 14 -->
+              1111100 <!-- Week 15 -->
+              0000000 <!-- Week 16 - Easter -->
+              0111100 <!-- Week 17 - Easter -->
+              1110000 <!-- Week 18 - May 1st -->
+              1111100 <!-- Week 19 -->
+              1111100 <!-- Week 20 -->
+              1111100 <!-- Week 21 -->
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayRoros2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayRoros2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayRoros2024-2025"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Renenbu kommune 2024-2025-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayRennebu2024-2025">
+      <Name lang="eng">School year calendar for Rennebu kommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDayRennebu2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDayRennebu2024-2025">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayRennebu2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->        
+              0000000 <!-- Week 32 - Summer vacation -->        
+              0000000 <!-- Week 33 - Summer vacation -->        
+              1111100 <!-- Week 34 -->                          
+              1111100 <!-- Week 35 -->                          
+              1111100 <!-- Week 36 -->                          
+              1111100 <!-- Week 37 -->                          
+              1111100 <!-- Week 38 -->                          
+              1111100 <!-- Week 39 -->                          
+              1111100 <!-- Week 40 -->                          
+              0000000 <!-- Week 41 - Autumn vacation -->        
+              1111100 <!-- Week 42 -->                          
+              1111100 <!-- Week 43 -->                          
+              1111100 <!-- Week 44 -->                          
+              1111100 <!-- Week 45 -->                          
+              1111100 <!-- Week 46 -->                          
+              1111100 <!-- Week 47 -->                          
+              1101100 <!-- Week 48 - Day off -->                
+              1111100 <!-- Week 49 -->                          
+              1111100 <!-- Week 50 -->                          
+              1111000 <!-- Week 51 - Starting Christmas vacation -->
+              0000000 <!-- Week 52 - Christmas vacation -->     
+              0001100 <!-- Week 1  - Christmas vacation -->
+              1111100 <!-- Week 2 -->                           
+              1111100 <!-- Week 3 -->                           
+              1111100 <!-- Week 4 -->                           
+              1111100 <!-- Week 5 -->                           
+              1111100 <!-- Week 6 -->                           
+              1111100 <!-- Week 7 -->                           
+              1111100 <!-- Week 8 -->
+              1111100 <!-- Week 9 -->                           
+              0000000 <!-- Week 10 - Winter vacation -->        
+              1111100 <!-- Week 11 -->                          
+              1111100 <!-- Week 12 -->                          
+              1111100 <!-- Week 13 -->                          
+              1111100 <!-- Week 14 -->                          
+              1111100 <!-- Week 15 -->                          
+              0000000 <!-- Week 16 - Easter -->                 
+              0111100 <!-- Week 17 - Easter -->                 
+              1110000 <!-- Week 18 - May 1st -->                
+              1111100 <!-- Week 19 -->                          
+              1111100 <!-- Week 20 -->                          
+              1111100 <!-- Week 21 -->                          
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111100 <!-- Week 25 -->                          
+              0000000 <!-- Week 26 - Summer vacation -->        
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayRennebu2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayRennebu2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayRennebu2024-2025"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Osen kommune 2024-2025-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayOsen2024-2025">
+      <Name lang="eng">School year calendar for Osen kommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDayOsen2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDayOsen2024-2025">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayOsen2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->                
+              0000000 <!-- Week 32 - Summer vacation -->                
+              0000000 <!-- Week 33 - Summer vacation -->                
+              1111100 <!-- Week 34 -->                                  
+              1111100 <!-- Week 35 -->                                  
+              1111100 <!-- Week 36 -->                                  
+              1111100 <!-- Week 37 -->                                  
+              1111100 <!-- Week 38 -->                                  
+              1111100 <!-- Week 39 -->                                  
+              1111100 <!-- Week 40 -->                                  
+              0000000 <!-- Week 41 - Autumn vacation -->                
+              1111100 <!-- Week 42 -->                                  
+              1111100 <!-- Week 43 -->                                  
+              1111100 <!-- Week 44 -->                                  
+              1111100 <!-- Week 45 -->                                  
+              1111100 <!-- Week 46 -->                                  
+              1111100 <!-- Week 47 -->                                  
+              1101100 <!-- Week 48 - Day off -->
+              1111100 <!-- Week 49 -->                                  
+              1111100 <!-- Week 50 -->                                  
+              1111100 <!-- Week 51 -->                                  
+              0000000 <!-- Week 52 - Christmas vacation -->             
+              0001100 <!-- Week 1 - Christmas vacation -->              
+              1111100 <!-- Week 2 -->                                   
+              1111100 <!-- Week 3 -->                                   
+              1111100 <!-- Week 4 -->                                   
+              1111100 <!-- Week 5 - Day off -->                         
+              1111100 <!-- Week 6 -->                                   
+              1111100 <!-- Week 7 -->                                   
+              1111100 <!-- Week 8 -->                                   
+              1111100 <!-- Week 9 -->                                   
+              0000000 <!-- Week 10 - Winter vacation -->                
+              1111100 <!-- Week 11 -->                                  
+              1111100 <!-- Week 12 -->                                  
+              1111100 <!-- Week 13 -->                                  
+              1111100 <!-- Week 14 -->                                  
+              1111100 <!-- Week 15 -->                                  
+              0000000 <!-- Week 16 - Easter -->                         
+              0111100 <!-- Week 17 - Easter -->                         
+              1110000 <!-- Week 18 - May 1st -->                        
+              1111100 <!-- Week 19 -->                                  
+              1111100 <!-- Week 20 -->                                  
+              1111100 <!-- Week 21 -->                                  
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111100 <!-- Week 25 -->                                  
+              0000000 <!-- Week 26 - Summer vacation -->                 
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayOsen2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayOsen2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayOsen2024-2025"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+
+    <!-- Lierne kommune 2024-2025-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayLierne2024-2025">
+      <Name lang="eng">School year calendar for Lierne kommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDayLierne2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDayLierne2024-2025">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayLierne2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0001100 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn vacation -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1111000 <!-- Week 48 - Day off -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0000000 <!-- Week 1 - Christmas vacation -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              1111100 <!-- Week 9 -->
+              0000000 <!-- Week 10 - Winter vacation -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              1111100 <!-- Week 13 -->
+              1111100 <!-- Week 14 -->
+              1111100 <!-- Week 15 -->
+              0000000 <!-- Week 16 - Easter -->
+              0111100 <!-- Week 17 - Easter -->
+              1110000 <!-- Week 18 - May 1st -->
+              1111100 <!-- Week 19 -->
+              1111100 <!-- Week 20 -->
+              1111100 <!-- Week 21 -->
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayLierne2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayLierne2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayLierne2024-2025"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+
+    <!-- Tydal kommune 2024-2025-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDayTydal2024-2025">
+      <Name lang="eng">School year calendar for Tydal kommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDayTydal2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDayTydal2024-2025">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTydal2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn vacation -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1111000 <!-- Week 48 - Day off -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0001100 <!-- Week 1 - Christmas vacation -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              1111100 <!-- Week 9 -->
+              0000000 <!-- Week 10 - Winter vacation -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              1101100 <!-- Week 13 - Day off -->
+              1111100 <!-- Week 14 -->
+              1111100 <!-- Week 15 -->
+              0000000 <!-- Week 16 - Easter -->
+              0111100 <!-- Week 17 - Easter -->
+              1110100 <!-- Week 18 - May 1st -->
+              1111100 <!-- Week 19 -->
+              1111100 <!-- Week 20 -->
+              1111100 <!-- Week 21 -->
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayTydal2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayTydal2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayTydal2024-2025"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
+
+    <!-- Selbu kommune 2024-2025-->
+    <ServiceCalendarFrame version="1" id="ATB:ServiceCalendarFrame:SchoolDaySelbu2024-2025">
+      <Name lang="eng">School year calendar for Selbu kommune</Name>
+      <ServiceCalendar id="ATB:ServiceCalendar:SchoolDaySelbu2024-2025" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDaySelbu2023-2024">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDaySelbu2024-2025">
+            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ValidDayBits>
+              0000000 <!-- Week 31 - Summer vacation -->
+              0000000 <!-- Week 32 - Summer vacation -->
+              0000000 <!-- Week 33 - Summer vacation -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              1111100 <!-- Week 40 -->
+              0000000 <!-- Week 41 - Autumn vacation -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111100 <!-- Week 47 -->
+              1111000 <!-- Week 48 - Day off -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0001100 <!-- Week 1 - Christmas vacation -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              1111100 <!-- Week 8 -->
+              1111100 <!-- Week 9 -->
+              0000000 <!-- Week 10 - Winter vacation -->
+              1111100 <!-- Week 11 -->
+              1111100 <!-- Week 12 -->
+              1101100 <!-- Week 13 - Day off -->
+              1111100 <!-- Week 14 -->
+              1111100 <!-- Week 15 -->
+              0000000 <!-- Week 16 - Easter -->
+              0111100 <!-- Week 17 - Easter -->
+              1110100 <!-- Week 18 - May 1st -->
+              1111100 <!-- Week 19 -->
+              1111100 <!-- Week 20 -->
+              1111100 <!-- Week 21 -->
+              1110000 <!-- Week 22 - Ascension -->
+              1111100 <!-- Week 23 -->
+              0111100 <!-- Week 24 - Pentecost -->
+              1111100 <!-- Week 25 -->
+              0000000 <!-- Week 26 - Summer vacation -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDaySelbu2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDaySelbu2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDaySelbu2024-2025"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
   </dataObjects>
 </PublicationDelivery>
