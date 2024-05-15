@@ -1698,9 +1698,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTrondheim2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->
               0000000 <!-- Week 32 - Summer vacation -->
@@ -1777,9 +1777,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTRFK2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->
               0000000 <!-- Week 32 - Summer vacation -->
@@ -1856,9 +1856,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayAfjord2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->
               0000000 <!-- Week 32 - Summer vacation -->
@@ -1935,9 +1935,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayRoros2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->
               0000000 <!-- Week 32 - Summer vacation -->
@@ -2014,9 +2014,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayRennebu2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->        
               0000000 <!-- Week 32 - Summer vacation -->        
@@ -2093,9 +2093,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayOsen2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->                
               0000000 <!-- Week 32 - Summer vacation -->                
@@ -2173,9 +2173,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayLierne2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->
               0000000 <!-- Week 32 - Summer vacation -->
@@ -2253,9 +2253,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTydal2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->
               0000000 <!-- Week 32 - Summer vacation -->
@@ -2332,9 +2332,9 @@
         </dayTypes>
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDaySelbu2024-2025">
-            <FromDate>2024-07-31T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
+            <FromDate>2024-07-29T00:00:00</FromDate> <!-- end of july till end of june next year - for simplicity -->
             <!-- Only necessary to validate that enough validity bits are present -->
-            <ToDate>2025-06-30T23:59:59</ToDate>
+            <ToDate>2025-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000 <!-- Week 31 - Summer vacation -->
               0000000 <!-- Week 32 - Summer vacation -->
