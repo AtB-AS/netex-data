@@ -2322,7 +2322,7 @@
       <Name lang="eng">School year calendar for Selbu kommune</Name>
       <ServiceCalendar id="ATB:ServiceCalendar:SchoolDaySelbu2024-2025" version="1">
         <dayTypes>
-          <FareDayType version="1" id="ATB:FareDayType:SchoolDaySelbu2023-2024">
+          <FareDayType version="1" id="ATB:FareDayType:SchoolDaySelbu2024-2025">
             <properties>
               <PropertyOfDay>
                 <HolidayTypes>SchoolDay</HolidayTypes>
