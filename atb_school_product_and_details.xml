@@ -1833,9 +1833,9 @@
           </UicOperatingPeriod>
         </operatingPeriods>
         <dayTypeAssignments>
-          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayTRFK2023-2024" order="1">
-            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayTRFK2023-2024"/>
-            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayTRFK2023-2024"/>
+          <DayTypeAssignment version="1" id="ATB:DayTypeAssignment:SchoolDayTRFK2024-2025" order="1">
+            <OperatingPeriodRef ref="ATB:UicOperatingPeriod:SchoolDayTRFK2024-2025"/>
+            <DayTypeRef version="1" ref="ATB:FareDayType:SchoolDayTRFK2024-2025"/>
           </DayTypeAssignment>
         </dayTypeAssignments>
       </ServiceCalendar>
