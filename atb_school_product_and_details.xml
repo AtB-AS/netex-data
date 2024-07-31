@@ -2415,7 +2415,7 @@
             <!-- Only necessary to validate that enough validity bits are present -->
             <ToDate>2025-06-29T23:59:59</ToDate>
             <ValidDayBits>
-              0000110 <!-- Week 31 - Summer vacation -->
+              0001100 <!-- Week 31 - Summer vacation -->
               1010100 <!-- Week 32 - Summer vacation -->
               1101100 <!-- Week 33 - Summer vacation -->
               1111100 <!-- Week 34 -->
