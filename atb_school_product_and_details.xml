@@ -1737,7 +1737,7 @@
               1111100 <!-- Week 11 -->
               1111100 <!-- Week 12 -->
               1111100 <!-- Week 13 -->
-              1111100 <!-- Week 14 -->
+              1111100 <!-- Week 14 - Easter -->
               1111100 <!-- Week 15 -->
               0000000 <!-- Week 16 - Easter -->
               0111100 <!-- Week 17 - Easter -->
@@ -2496,7 +2496,7 @@
             <FromDate>2025-08-11T00:00:00</FromDate>
             <ToDate>2026-06-26T23:59:59</ToDate>
             <ValidDayBits>
-              0000000<!-- Week 33 -->
+              0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
               1111100<!-- Week 35 -->
               1111100<!-- Week 36 -->
@@ -2504,7 +2504,7 @@
               1111100<!-- Week 38 -->
               1111100<!-- Week 39 -->
               1111100<!-- Week 40 -->
-              0000000<!-- Week 41 -->
+              0000000<!-- Week 41 - Autumn vacation -->
               1111100<!-- Week 42 -->
               1111100<!-- Week 43 -->
               1111100<!-- Week 44 -->
@@ -2515,33 +2515,33 @@
               1111100<!-- Week 49 -->
               1111100<!-- Week 50 -->
               1111100<!-- Week 51 -->
-              0000000<!-- Week 52 -->
-              0000000<!-- Week 1 -->
+              0000000<!-- Week 52 - Christmas vacation -->
+              0000000<!-- Week 1 - Christmas vacation -->
               1111100<!-- Week 2 -->
               1111100<!-- Week 3 -->
               1111100<!-- Week 4 -->
-              1111000<!-- Week 5 -->
+              1111000<!-- Week 5 - Student break -->
               1111100<!-- Week 6 -->
               1111100<!-- Week 7 -->
-              0000000<!-- Week 8 -->
+              0000000<!-- Week 8 - Winter vacation -->
               1111100<!-- Week 9 -->
               1111100<!-- Week 10 -->
               1111100<!-- Week 11 -->
               1111100<!-- Week 12 -->
               1111100<!-- Week 13 -->
-              0000000<!-- Week 14 -->
-              0111100<!-- Week 15 -->
+              0000000<!-- Week 14 - Easter -->
+              0111100<!-- Week 15 - Easter -->
               1111100<!-- Week 16 -->
               1111100<!-- Week 17 -->
-              1110000<!-- Week 18 -->
+              1110000<!-- Week 18 - May 1st -->
               1111100<!-- Week 19 -->
-              1110000<!-- Week 20 -->
+              1110000<!-- Week 20 - Ascension -->
               1111100<!-- Week 21 -->
-              0111100<!-- Week 22 -->
+              0111100<!-- Week 22 - Pentecost -->
               1111100<!-- Week 23 -->
               1111100<!-- Week 24 -->
               1111100<!-- Week 25 -->
-              1100000<!-- Week 26 -->
+              1100000<!-- Week 26 - Summer vacation -->
             </ValidDayBits>
           </UicOperatingPeriod>
         </operatingPeriods>
@@ -2572,7 +2572,7 @@
             <FromDate>2025-08-11T00:00:00</FromDate>
             <ToDate>2026-06-26T23:59:59</ToDate>
             <ValidDayBits>
-              0000000<!-- Week 33 -->
+              0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
               1111100<!-- Week 35 -->
               1111100<!-- Week 36 -->
@@ -2580,10 +2580,10 @@
               1111100<!-- Week 38 -->
               1111100<!-- Week 39 -->
               1111100<!-- Week 40 -->
-              0000000<!-- Week 41 -->
+              0000000<!-- Week 41 - Autumn vacation -->
               1111100<!-- Week 42 -->
               1111100<!-- Week 43 -->
-              1101100<!-- Week 44 -->
+              1101100<!-- Week 44 - Student break -->
               1111100<!-- Week 45 -->
               1111100<!-- Week 46 -->
               1111100<!-- Week 47 -->
@@ -2591,33 +2591,33 @@
               1111100<!-- Week 49 -->
               1111100<!-- Week 50 -->
               1111100<!-- Week 51 -->
-              0000000<!-- Week 52 -->
-              0000000<!-- Week 1 -->
+              0000000<!-- Week 52 - Christmas vacation -->
+              0000000<!-- Week 1 - Christmas vacation -->
               1111100<!-- Week 2 -->
               1111100<!-- Week 3 -->
               1111100<!-- Week 4 -->
               1111100<!-- Week 5 -->
               1111100<!-- Week 6 -->
               1111100<!-- Week 7 -->
-              0000000<!-- Week 8 -->
+              0000000<!-- Week 8 - Winter vacation -->
               1111100<!-- Week 9 -->
               1111100<!-- Week 10 -->
-              0111100<!-- Week 11 -->
+              0111100<!-- Week 11 - Student break -->
               1111100<!-- Week 12 -->
               1111100<!-- Week 13 -->
-              0000000<!-- Week 14 -->
-              0111100<!-- Week 15 -->
+              0000000<!-- Week 14 - Easter -->
+              0111100<!-- Week 15 - Easter -->
               1111100<!-- Week 16 -->
               1111100<!-- Week 17 -->
-              1111000<!-- Week 18 -->
+              1111000<!-- Week 18 - May 1st -->
               1111100<!-- Week 19 -->
-              1110000<!-- Week 20 -->
+              1110000<!-- Week 20 - Ascension -->
               1111100<!-- Week 21 -->
-              0111100<!-- Week 22 -->
+              0111100<!-- Week 22 - Pentecost -->
               1111100<!-- Week 23 -->
               1111100<!-- Week 24 -->
               1111100<!-- Week 25 -->
-              1100000<!-- Week 26 -->
+              1100000<!-- Week 26 - Summer vacation -->
             </ValidDayBits>
           </UicOperatingPeriod>
         </operatingPeriods>
@@ -2648,7 +2648,7 @@
             <FromDate>2025-08-11T00:00:00</FromDate>
             <ToDate>2026-06-26T23:59:59</ToDate>
             <ValidDayBits>
-              0000000<!-- Week 33 -->
+              0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
               1111100<!-- Week 35 -->
               1111100<!-- Week 36 -->
@@ -2656,10 +2656,10 @@
               1111100<!-- Week 38 -->
               1111100<!-- Week 39 -->
               1111100<!-- Week 40 -->
-              0000000<!-- Week 41 -->
+              0000000<!-- Week 41 - Autumn vacation -->
               1111100<!-- Week 42 -->
               1111100<!-- Week 43 -->
-              1101100<!-- Week 44 -->
+              1101100<!-- Week 44 - Student break -->
               1111100<!-- Week 45 -->
               1111100<!-- Week 46 -->
               1111100<!-- Week 47 -->
@@ -2667,8 +2667,8 @@
               1111100<!-- Week 49 -->
               1111100<!-- Week 50 -->
               1111100<!-- Week 51 -->
-              0000000<!-- Week 52 -->
-              0000000<!-- Week 1 -->
+              0000000<!-- Week 52 - Christmas vacation -->
+              0000000<!-- Week 1 - Christmas vacation -->
               1111100<!-- Week 2 -->
               1111100<!-- Week 3 -->
               1111100<!-- Week 4 -->
@@ -2676,24 +2676,24 @@
               1111100<!-- Week 6 -->
               1111100<!-- Week 7 -->
               1111100<!-- Week 8 -->
-              0000000<!-- Week 9 -->
+              0000000<!-- Week 9 - Winter vacation -->
               1111100<!-- Week 10 -->
-              0111100<!-- Week 11 -->
+              0111100<!-- Week 11 - Student break -->
               1111100<!-- Week 12 -->
               1111100<!-- Week 13 -->
-              0000000<!-- Week 14 -->
-              0111100<!-- Week 15 -->
+              0000000<!-- Week 14 - Easter -->
+              0111100<!-- Week 15 - Easter -->
               1111100<!-- Week 16 -->
               1111100<!-- Week 17 -->
-              1111000<!-- Week 18 -->
+              1111000<!-- Week 18 - May 1st -->
               1111100<!-- Week 19 -->
-              1110000<!-- Week 20 -->
+              1110000<!-- Week 20 - Ascension -->
               1111100<!-- Week 21 -->
-              0111100<!-- Week 22 -->
+              0111100<!-- Week 22 - Pentecost -->
               1111100<!-- Week 23 -->
               1111100<!-- Week 24 -->
               1111100<!-- Week 25 -->
-              1100000<!-- Week 26 -->
+              1100000<!-- Week 26 - Summer vacation -->
             </ValidDayBits>
           </UicOperatingPeriod>
         </operatingPeriods>
@@ -2724,7 +2724,7 @@
             <FromDate>2025-08-11T00:00:00</FromDate>
             <ToDate>2026-06-26T23:59:59</ToDate>
             <ValidDayBits>
-              0000000<!-- Week 33 -->
+              0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
               1111100<!-- Week 35 -->
               1111100<!-- Week 36 -->
@@ -2732,10 +2732,10 @@
               1111100<!-- Week 38 -->
               1111100<!-- Week 39 -->
               1111100<!-- Week 40 -->
-              0000000<!-- Week 41 -->
+              0000000<!-- Week 41 - Autumn vacation -->
               1111100<!-- Week 42 -->
               1111100<!-- Week 43 -->
-              1101100<!-- Week 44 -->
+              1101100<!-- Week 44 - Student break -->
               1111100<!-- Week 45 -->
               1111100<!-- Week 46 -->
               1111100<!-- Week 47 -->
@@ -2743,33 +2743,33 @@
               1111100<!-- Week 49 -->
               1111100<!-- Week 50 -->
               1111100<!-- Week 51 -->
-              0000000<!-- Week 52 -->
-              0000000<!-- Week 1 -->
+              0000000<!-- Week 52 - Christmas vacation -->
+              0000000<!-- Week 1 - Christmas vacation -->
               1111100<!-- Week 2 -->
               1111100<!-- Week 3 -->
               1111100<!-- Week 4 -->
               1111100<!-- Week 5 -->
               1111100<!-- Week 6 -->
               1111100<!-- Week 7 -->
-              0000000<!-- Week 8 -->
+              0000000<!-- Week 8 - Winter vacation -->
               1111100<!-- Week 9 -->
               1111100<!-- Week 10 -->
               1111100<!-- Week 11 -->
               1111100<!-- Week 12 -->
               1111100<!-- Week 13 -->
-              0000000<!-- Week 14 -->
-              0111100<!-- Week 15 -->
+              0000000<!-- Week 14 - Easter -->
+              0111100<!-- Week 15 - Easter -->
               1111100<!-- Week 16 -->
               1111100<!-- Week 17 -->
-              1111000<!-- Week 18 -->
+              1111000<!-- Week 18 - May 1st -->
               1111100<!-- Week 19 -->
-              1110000<!-- Week 20 -->
+              1110000<!-- Week 20 - Ascension -->
               1111100<!-- Week 21 -->
-              0111100<!-- Week 22 -->
+              0111100<!-- Week 22 - Pentecost -->
               1111100<!-- Week 23 -->
               1111100<!-- Week 24 -->
               1111100<!-- Week 25 -->
-              1000000<!-- Week 26 -->
+              1000000<!-- Week 26 - Summer vacation -->
             </ValidDayBits>
           </UicOperatingPeriod>
         </operatingPeriods>
@@ -2800,7 +2800,7 @@
             <FromDate>2025-08-11T00:00:00</FromDate>
             <ToDate>2026-06-26T23:59:59</ToDate>
             <ValidDayBits>
-              0000000<!-- Week 33 -->
+              0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
               1111100<!-- Week 35 -->
               1111100<!-- Week 36 -->
@@ -2808,10 +2808,10 @@
               1111100<!-- Week 38 -->
               1111100<!-- Week 39 -->
               1111100<!-- Week 40 -->
-              0000000<!-- Week 41 -->
+              0000000<!-- Week 41 - Autumn vacation -->
               1111100<!-- Week 42 -->
               1111100<!-- Week 43 -->
-              1101100<!-- Week 44 -->
+              1101100<!-- Week 44 - Student break -->
               1111100<!-- Week 45 -->
               1111100<!-- Week 46 -->
               1111100<!-- Week 47 -->
@@ -2819,33 +2819,33 @@
               1111100<!-- Week 49 -->
               1111100<!-- Week 50 -->
               1111100<!-- Week 51 -->
-              0000000<!-- Week 52 -->
-              0000000<!-- Week 1 -->
+              0000000<!-- Week 52 - Christmas vacation -->
+              0000000<!-- Week 1 - Christmas vacation -->
               1111100<!-- Week 2 -->
               1111100<!-- Week 3 -->
               1111100<!-- Week 4 -->
               1111100<!-- Week 5 -->
               1111100<!-- Week 6 -->
               1111100<!-- Week 7 -->
-              0000000<!-- Week 8 -->
+              0000000<!-- Week 8 - Winter vacation -->
               1111100<!-- Week 9 -->
               1111100<!-- Week 10 -->
               1111100<!-- Week 11 -->
               1111100<!-- Week 12 -->
               1111100<!-- Week 13 -->
-              0000000<!-- Week 14 -->
-              0111100<!-- Week 15 -->
+              0000000<!-- Week 14 - Easter -->
+              0111100<!-- Week 15 - Easter -->
               1111100<!-- Week 16 -->
               1111100<!-- Week 17 -->
-              1111000<!-- Week 18 -->
+              1111000<!-- Week 18 - May 1st -->
               1111100<!-- Week 19 -->
-              1110000<!-- Week 20 -->
+              1110000<!-- Week 20 - Ascension -->
               1111100<!-- Week 21 -->
-              0111100<!-- Week 22 -->
+              0111100<!-- Week 22 - Pentecost -->
               1111100<!-- Week 23 -->
               1111100<!-- Week 24 -->
               1111100<!-- Week 25 -->
-              1000000<!-- Week 26 -->
+              1000000<!-- Week 26 - Summer vacation -->
             </ValidDayBits>
           </UicOperatingPeriod>
         </operatingPeriods>
