@@ -2494,7 +2494,7 @@
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTrondheim2025-2026">
             <FromDate>2025-08-11T00:00:00</FromDate>
-            <ToDate>2026-06-26T23:59:59</ToDate>
+            <ToDate>2026-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
@@ -2570,7 +2570,7 @@
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayTRFK2025-2026">
             <FromDate>2025-08-11T00:00:00</FromDate>
-            <ToDate>2026-06-26T23:59:59</ToDate>
+            <ToDate>2026-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
@@ -2646,7 +2646,7 @@
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayRoros2025-2026">
             <FromDate>2025-08-11T00:00:00</FromDate>
-            <ToDate>2026-06-26T23:59:59</ToDate>
+            <ToDate>2026-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
@@ -2722,7 +2722,7 @@
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayRennebu2025-2026">
             <FromDate>2025-08-11T00:00:00</FromDate>
-            <ToDate>2026-06-26T23:59:59</ToDate>
+            <ToDate>2026-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->
@@ -2798,7 +2798,7 @@
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="ATB:UicOperatingPeriod:SchoolDayLierne2025-2026">
             <FromDate>2025-08-11T00:00:00</FromDate>
-            <ToDate>2026-06-26T23:59:59</ToDate>
+            <ToDate>2026-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0000000<!-- Week 33 - Summer vacation -->
               1111100<!-- Week 34 -->

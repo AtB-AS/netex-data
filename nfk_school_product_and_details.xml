@@ -824,7 +824,7 @@
         <operatingPeriods>
           <UicOperatingPeriod version="1" id="NOR:UicOperatingPeriod:SchoolDayNFK2025-2026">
             <FromDate>2025-08-11T00:00:00</FromDate>
-            <ToDate>2026-06-26T23:59:59</ToDate>
+            <ToDate>2026-06-28T23:59:59</ToDate>
             <ValidDayBits>
               0001100 <!-- Week 33 - Summer vacation -->
               1111100 <!-- Week 34 -->
