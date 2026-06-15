@@ -883,5 +883,82 @@
         </dayTypeAssignments>
       </ServiceCalendar>
     </ServiceCalendarFrame>
+
+    <!-- ######## 2026/2027 ######## -->
+
+    <!-- Nordland kommune 2026-2027 (default) -->
+    <ServiceCalendarFrame version="1" id="NOR:ServiceCalendarFrame:SchoolDayNFK2026-2027">
+      <Name lang="eng">School year calendar for Nordland kommune</Name>
+      <ServiceCalendar id="NOR:ServiceCalendar:SchoolDayNFK2026-2027" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="NOR:FareDayType:SchoolDayNFK2026-2027">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="NOR:UicOperatingPeriod:SchoolDayNFK2026-2027">
+            <FromDate>2026-08-10T00:00:00</FromDate>
+            <ToDate>2027-06-20T23:59:59</ToDate>
+            <ValidDayBits>
+              0001100 <!-- Week 33 - Summer vacation - school starts 13 August -->
+              1111100 <!-- Week 34 -->
+              1111100 <!-- Week 35 -->
+              1111100 <!-- Week 36 -->
+              1111100 <!-- Week 37 -->
+              1111100 <!-- Week 38 -->
+              1111100 <!-- Week 39 -->
+              0000000 <!-- Week 40 - Autumn vacation -->
+              1111100 <!-- Week 41 -->
+              1111100 <!-- Week 42 -->
+              1111100 <!-- Week 43 -->
+              1111100 <!-- Week 44 -->
+              1111100 <!-- Week 45 -->
+              1111100 <!-- Week 46 -->
+              1111000 <!-- Week 47 - Day off 20 November -->
+              1111100 <!-- Week 48 -->
+              1111100 <!-- Week 49 -->
+              1111100 <!-- Week 50 -->
+              1111100 <!-- Week 51 -->
+              0000000 <!-- Week 52 - Christmas vacation -->
+              0000000 <!-- Week 53 - Christmas vacation -->
+              1111100 <!-- Week 1 -->
+              1111100 <!-- Week 2 -->
+              1111100 <!-- Week 3 -->
+              1111100 <!-- Week 4 -->
+              1111100 <!-- Week 5 -->
+              1111100 <!-- Week 6 -->
+              1111100 <!-- Week 7 -->
+              0000000 <!-- Week 8 - Winter vacation -->
+              1111100 <!-- Week 9 -->
+              1111100 <!-- Week 10 -->
+              1111100 <!-- Week 11 -->
+              0000000 <!-- Week 12 - Easter -->
+              0011100 <!-- Week 13 - Easter -->
+              1111100 <!-- Week 14 -->
+              1111100 <!-- Week 15 -->
+              1111100 <!-- Week 16 -->
+              1111100 <!-- Week 17 -->
+              1110000 <!-- Week 18 - Ascension + day off 7 May -->
+              1111100 <!-- Week 19 -->
+              0111100 <!-- Week 20 - May 17th -->
+              1111100 <!-- Week 21 -->
+              1111100 <!-- Week 22 -->
+              1111100 <!-- Week 23 -->
+              1111000 <!-- Week 24 - Last school day 17 June -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="NOR:DayTypeAssignment:SchoolDayNFK2026-2027" order="1">
+            <OperatingPeriodRef ref="NOR:UicOperatingPeriod:SchoolDayNFK2026-2027"/>
+            <DayTypeRef version="1" ref="NOR:FareDayType:SchoolDayNFK2026-2027"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
   </dataObjects>
 </PublicationDelivery>
