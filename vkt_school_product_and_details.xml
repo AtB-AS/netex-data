@@ -16,11 +16,11 @@
     <!-- ######## 2026/2027 ######## -->
 
     <!-- Vestfold fylke 2026-2027 (default) -->
-    <ServiceCalendarFrame version="1" id="VKT:ServiceCalendarFrame:SchoolDayVKT2026-2027">
+    <ServiceCalendarFrame version="1" id="VKT:ServiceCalendarFrame:Grunnskole2026-2027">
       <Name lang="eng">School year calendar for Vestfold</Name>
-      <ServiceCalendar id="VKT:ServiceCalendar:SchoolDayVKT2026-2027" version="1">
+      <ServiceCalendar id="VKT:ServiceCalendar:Grunnskole2026-2027" version="1">
         <dayTypes>
-          <FareDayType version="1" id="VKT:FareDayType:SchoolDayVKT2026-2027">
+          <FareDayType version="1" id="VKT:FareDayType:Grunnskole2026-2027">
             <properties>
               <PropertyOfDay>
                 <HolidayTypes>SchoolDay</HolidayTypes>
@@ -29,7 +29,7 @@
           </FareDayType>
         </dayTypes>
         <operatingPeriods>
-          <UicOperatingPeriod version="1" id="VKT:UicOperatingPeriod:SchoolDayVKT2026-2027">
+          <UicOperatingPeriod version="1" id="VKT:UicOperatingPeriod:Grunnskole2026-2027">
             <FromDate>2026-08-17T00:00:00</FromDate>
             <ToDate>2027-06-20T23:59:59</ToDate>
             <ValidDayBits>
@@ -81,9 +81,9 @@
           </UicOperatingPeriod>
         </operatingPeriods>
         <dayTypeAssignments>
-          <DayTypeAssignment version="1" id="VKT:DayTypeAssignment:SchoolDayVKT2026-2027" order="1">
-            <OperatingPeriodRef ref="VKT:UicOperatingPeriod:SchoolDayVKT2026-2027"/>
-            <DayTypeRef version="1" ref="VKT:FareDayType:SchoolDayVKT2026-2027"/>
+          <DayTypeAssignment version="1" id="VKT:DayTypeAssignment:Grunnskole2026-2027" order="1">
+            <OperatingPeriodRef ref="VKT:UicOperatingPeriod:Grunnskole2026-2027"/>
+            <DayTypeRef version="1" ref="VKT:FareDayType:Grunnskole2026-2027"/>
           </DayTypeAssignment>
         </dayTypeAssignments>
       </ServiceCalendar>
