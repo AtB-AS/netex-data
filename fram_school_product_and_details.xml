@@ -313,5 +313,80 @@
         </dayTypeAssignments>
       </ServiceCalendar>
     </ServiceCalendarFrame>
+
+    <!-- MRFK 2026-2027 (default) -->
+    <ServiceCalendarFrame version="1" id="MOR:ServiceCalendarFrame:SchoolDayMRFK2026-2027">
+      <Name lang="eng">School year calendar for MRFK</Name>
+      <ServiceCalendar id="MOR:ServiceCalendar:SchoolDayMRFK2026-2027" version="1">
+        <dayTypes>
+          <FareDayType version="1" id="MOR:FareDayType:SchoolDayMRFK2026-2027">
+            <properties>
+              <PropertyOfDay>
+                <HolidayTypes>SchoolDay</HolidayTypes>
+              </PropertyOfDay>
+            </properties>
+          </FareDayType>
+        </dayTypes>
+        <operatingPeriods>
+          <UicOperatingPeriod version="1" id="MOR:UicOperatingPeriod:SchoolDayMRFK2026-2027">
+            <FromDate>2026-08-17T00:00:00</FromDate> <!-- 17th Aug 2026 till 18th June 2027 -->
+            <!-- Only necessary to validate that enough validity bits are present -->
+            <ToDate>2027-06-18T00:00:00</ToDate>
+            <ValidDayBits>
+              1111100<!-- Week 34 -->
+              1111100<!-- Week 35 -->
+              1111100<!-- Week 36 -->
+              1111100<!-- Week 37 -->
+              1111100<!-- Week 38 -->
+              1111100<!-- Week 39 -->
+              1111100<!-- Week 40 -->
+              0000000<!-- Week 41 - Autumn vacation -->
+              1111100<!-- Week 42 -->
+              1111100<!-- Week 43 -->
+              1111100<!-- Week 44 -->
+              1111100<!-- Week 45 -->
+              1111100<!-- Week 46 -->
+              1111100<!-- Week 47 -->
+              1111100<!-- Week 48 -->
+              1111100<!-- Week 49 -->
+              1111100<!-- Week 50 -->
+              1111100<!-- Week 51 -->
+              0000000<!-- Week 52 - Christmas vacation -->
+              0000000<!-- Week 53 - Christmas vacation -->
+              0111100<!-- Week 1 - Christmas vacation -->
+              1111100<!-- Week 2 -->
+              1111100<!-- Week 3 -->
+              1111100<!-- Week 4 -->
+              1111100<!-- Week 5 -->
+              1111100<!-- Week 6 -->
+              1111100<!-- Week 7 -->
+              0000000<!-- Week 8 - Winter vacation -->
+              1111100<!-- Week 9 -->
+              1111100<!-- Week 10 -->
+              1111100<!-- Week 11 -->
+              0000000<!-- Week 12 - Easter -->
+              0111100<!-- Week 13 - Easter -->
+              1111100<!-- Week 14 -->
+              1111100<!-- Week 15 -->
+              1111100<!-- Week 16 -->
+              1111100<!-- Week 17 -->
+              1110000<!-- Week 18 - Ascension -->
+              1111100<!-- Week 19 -->
+              0111100<!-- Week 20 - May 17th / Pentecost -->
+              1111100<!-- Week 21 -->
+              1111100<!-- Week 22 -->
+              1111100<!-- Week 23 -->
+              11111  <!-- Week 24 -->
+            </ValidDayBits>
+          </UicOperatingPeriod>
+        </operatingPeriods>
+        <dayTypeAssignments>
+          <DayTypeAssignment version="1" id="MOR:DayTypeAssignment:SchoolDayMRFK2026-2027" order="1">
+            <OperatingPeriodRef ref="MOR:UicOperatingPeriod:SchoolDayMRFK2026-2027"/>
+            <DayTypeRef version="1" ref="MOR:FareDayType:SchoolDayMRFK2026-2027"/>
+          </DayTypeAssignment>
+        </dayTypeAssignments>
+      </ServiceCalendar>
+    </ServiceCalendarFrame>
   </dataObjects>
 </PublicationDelivery>
